@@ -1,0 +1,15 @@
+// fontawesome
+@import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+// vor fi ghiduri care foloses ~ in loc de node_modules
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+// bootstrap
+@import './../node_modules/bootstrap/scss/bootstrap-reboot';
+@import './../node_modules/bootstrap/scss/bootstrap-grid';
+@import './../node_modules/bootstrap/scss/bootstrap-utilities';
+
+body {
+  background-color: lightblue;
+}
