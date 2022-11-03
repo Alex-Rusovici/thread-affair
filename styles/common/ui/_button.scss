@@ -1,0 +1,22 @@
+.button {
+  display: inline-block;
+  background-color: $brand-primary;
+  color: $white;
+  text-transform: uppercase;
+  padding: 16px 36px;
+  border-radius: 32px;
+  border: 1px solid $brand-primary;
+  cursor: pointer;
+  transition: color 0.2s linear, background-color 0.2s linear;
+
+  &:hover {
+    background-color: transparent;
+    color: $brand-primary;
+  }
+
+  &-large {
+    padding: 32px 72px;
+    border-radius: 64px;
+    font-size: 24px;
+  }
+}
