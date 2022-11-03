@@ -1,5 +1,9 @@
+// fonts
+@import './fonts';
+
 // fontawesome
 @import './../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+
 // vor fi ghiduri care foloses ~ in loc de node_modules
 @import '~@fortawesome/fontawesome-free/scss/brands';
 @import '~@fortawesome/fontawesome-free/scss/regular';
@@ -11,5 +15,6 @@
 @import './../node_modules/bootstrap/scss/bootstrap-utilities';
 
 body {
-  background-color: lightblue;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
 }
