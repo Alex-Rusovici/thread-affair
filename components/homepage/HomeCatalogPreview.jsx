@@ -11,7 +11,7 @@ export default function HomeCatalogPreview() {
 
           <p>
             Accomplish new achievements with a bold new style from the brilliant
-            collection of men's designer suits. <br /> For the finest custom
+            collection of mens designer suits. <br /> For the finest custom
             tailored experience, be sure to explore our selection of premium
             fabrics from one of the world's oldest fabric mills, Vitale Barberis
             Canonico.
