@@ -1,7 +1,9 @@
-import Footer from "../components/common/footer/Footer";
-import Header from "../components/common/header/Header";
-import HomePayment from "../components/homepage/HomePayment";
-import HomeSocial from "../components/homepage/HomeSocial";
+import Footer from '../components/common/footer/Footer';
+import Header from '../components/common/header/Header';
+import HomeCatalogPreview from '../components/homepage/HomeCatalogPreview';
+import HomeNewsletter from '../components/homepage/HomeNewsletter';
+import HomePayment from '../components/homepage/HomePayment';
+import HomeSocial from '../components/homepage/HomeSocial';
 
 export default function Home() {
   return (
@@ -12,9 +14,19 @@ export default function Home() {
       {/* ./header */}
 
       <main className="content">
+        <div className="content-main">
+          <HomeCatalogPreview></HomeCatalogPreview>
 
-        <div className="content-main container">
+          <HomeCatalogPreview></HomeCatalogPreview>
+
+          <HomeCatalogPreview></HomeCatalogPreview>
+
+          <HomeCatalogPreview></HomeCatalogPreview>
+
+          <HomeNewsletter></HomeNewsletter>
+
           <HomePayment></HomePayment>
+
           <HomeSocial></HomeSocial>
         </div>
       </main>

@@ -1,0 +1,41 @@
+// hacks
+// multiple layout styles
+
+// .home-catalog-preview:first-child {
+//   .product-tiles {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 70px;
+
+//     @include media-breakpoint-up(lg) {
+//       display: block;
+//     }
+//   }
+// }
+
+.home-catalog-preview {
+  .product-tiles {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+  }
+
+  // v1 of layout
+  &:first-child {
+    .product-tiles {
+      @include media-breakpoint-up(lg) {
+        display: block;
+
+        & > li {
+          width: 27.386541%; // 350 / 1278
+          float: left;
+          margin-left: 8.84194%; //113 / 1278
+
+          &:first-child {
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

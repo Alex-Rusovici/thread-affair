@@ -1,0 +1,14 @@
+.product-tile {
+  &-image {
+    position: relative;
+    img {
+      width: 100%;
+    }
+
+    .badge {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  }
+}

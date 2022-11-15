@@ -50,6 +50,22 @@
 
   .footer-contact {
     grid-area: contact;
+
+    span {
+      font-weight: 500;
+    }
+
+    p:nth-child(2),
+    p:nth-child(3) {
+      text-transform: initial;
+      font-size: 14px;
+    }
+
+    a {
+      color: $brand-primary;
+      text-transform: lowercase;
+      font-size: 14px;
+    }
   }
 
   .footer-support {
@@ -65,7 +81,7 @@
     }
 
     i {
-      font-size: 32px;
+      font-size: 40px;
       display: block;
       color: $brand-primary;
     }
