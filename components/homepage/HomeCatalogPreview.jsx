@@ -1,4 +1,4 @@
-import ProductTile from './catalog/ProductTile';
+import ProductTile from '../catalog/ProductTile';
 
 export default function HomeCatalogPreview() {
   return (
