@@ -10,27 +10,27 @@ export default function HomeSocial() {
 
         <ul>
           <li>
-            <a href="/" title="Facebook">
+            <Link href="/" title="Facebook">
               <i className="fa-brands fa-facebook"></i>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/" title="Instagram">
+            <Link href="/" title="Instagram">
               <i className="fa-brands fa-instagram"></i>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/" title="linkedin">
+            <Link href="/" title="linkedin">
               <i className="fa-brands fa-linkedin"></i>
-            </a>
+            </Link>
           </li>
 
           <li>
-            <a href="/" title="Pinterest">
+            <Link href="/" title="Pinterest">
               <i className="fa-brands fa-pinterest"></i>
-            </a>
+            </Link>
           </li>
 
           <li>
