@@ -1,0 +1,16 @@
+.home-social {
+  ul {
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    li {
+      height: 64px;
+      width: 64px;
+      border: 3px solid $gray-primary;
+      border-radius: 50%;
+      text-align: center;
+    }
+  }
+}

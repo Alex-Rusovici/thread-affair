@@ -5,6 +5,11 @@
   font-size: 14px;
   font-weight: 300;
 
+  @include media-breakpoint-up(lg) {
+    background: $brand-tertiary url('/images/banners/banner-06.jpg') no-repeat
+      100% 70%;
+  }
+
   &-inner {
     padding: 50px;
     display: grid;

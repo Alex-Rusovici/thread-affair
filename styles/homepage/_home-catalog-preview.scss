@@ -55,7 +55,8 @@
   }
 
   // v3 of layout - grid
-  &:nth-child(3) {
+  &:nth-child(3),
+  &:nth-child(4) {
     .product-tiles {
       @include media-breakpoint-up(lg) {
         display: grid;
