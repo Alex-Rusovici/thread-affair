@@ -36,9 +36,9 @@ export default function HomeSocial() {
           </li>
 
           <li>
-            <a href="/" title="Twitter">
+            <Link href="/" title="Twitter">
               <i className="fa-brands fa-twitter"></i>
-            </a>
+            </Link>
           </li>
         </ul>
       </section>
