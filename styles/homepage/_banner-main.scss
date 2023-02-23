@@ -1,14 +1,8 @@
 .banner-main {
-  background: $brand-secondary url('/images/banners/banner-01.jpg') no-repeat
-    center center / cover;
   height: 716px;
   margin-bottom: 16px;
   color: $white;
   font-weight: 300;
-
-  @include media-breakpoint-up(lg) {
-    background-image: url('/images/banners/banner-02.jpg');
-  }
 
   &-inner {
     height: inherit;
