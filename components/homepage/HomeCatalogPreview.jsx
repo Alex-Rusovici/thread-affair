@@ -1,6 +1,9 @@
 import ProductTile from '../catalog/ProductTile';
 
-export default function HomeCatalogPreview() {
+export default function HomeCatalogPreview(props) {
+  // const productrs = props.products
+  const { products } = props;
+
   return (
     <>
       <section className="home-catalog-preview container">
@@ -19,17 +22,13 @@ export default function HomeCatalogPreview() {
         </header>
 
         <ul className="product-tiles">
-          <li>
-            <ProductTile></ProductTile>
-          </li>
-
-          <li>
-            <ProductTile></ProductTile>
-          </li>
-
-          <li>
-            <ProductTile></ProductTile>
-          </li>
+          {products.map((product, index) => {
+            return (
+              <li>
+                <ProductTile key={index} product={product}></ProductTile>
+              </li>
+            );
+          })}
         </ul>
       </section>
     </>

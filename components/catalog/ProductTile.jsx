@@ -1,6 +1,8 @@
 import Link from 'next/link';
 
-export default function ProductTile() {
+export default function ProductTile(props) {
+  const { product } = props;
+  const { imageUrl } = product;
   return (
     <>
       <article className="product-tile">
@@ -8,7 +10,7 @@ export default function ProductTile() {
           <div className="product-tile-image">
             <Link href="/" alt="Thread affair suit">
               <picture>
-                <img src="/images/products/product-01a.jpg" alt="Suit" />
+                <img src={imageUrl} alt="Suit" />
               </picture>
             </Link>
 
