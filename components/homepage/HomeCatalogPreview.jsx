@@ -24,8 +24,8 @@ export default function HomeCatalogPreview(props) {
         <ul className="product-tiles">
           {products.map((product, index) => {
             return (
-              <li>
-                <ProductTile key={index} product={product}></ProductTile>
+              <li key={index}>
+                <ProductTile product={product}></ProductTile>
               </li>
             );
           })}
